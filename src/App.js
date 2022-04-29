@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Firebase Firestore React</h1>
+        <h1> Firebase Firestore React Movie CRUD</h1>
       </header>
       <main>
         <div className="card">

@@ -38,7 +38,7 @@ export default function EditMovie() {
                 value={name} 
                 onChange={e => setName(e.target.value)}
             />          
-            <button type='submit'>Edit movie</button>
+            <button type='submit' className="Editbtn">Edit movie</button>
         </form>
         </div>
     )

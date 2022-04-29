@@ -17,11 +17,14 @@ ul.no-bullets {
     margin-left: 30%;
     margin-right: 30%;
     padding-top: 25px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
+    box-shadow: 10px 10px #a0a0a0; 
 }
 
-header {
-    background-color: #a8a516;
-    padding-top: 25px;
-    padding-bottom: 25px;
+label {
+    margin-right: 2%;
+}
+
+.Editbtn {
+    background-color: rgb(230, 230, 255);
 }
