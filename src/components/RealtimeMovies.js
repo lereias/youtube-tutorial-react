@@ -34,7 +34,7 @@ export default function RealtimeMovies() {
             {movies.map(movie => (
                 <li key={movie.id}>
                     {movie.id} : {movie.data.name}
-                    <button onClick={() => deleteMovie(movie.id)}>delete</button>
+                    <button className="Deletebtn" onClick={() => deleteMovie(movie.id)}>delete</button>
                 </li>
             ))}
         </ul>

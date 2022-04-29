@@ -17,6 +17,8 @@ export default function EditMovie() {
             console.log(response)
             })
             .catch(error => console.log(error.message))
+        setName("");
+        setId("");
     }
 
     return (
@@ -30,14 +32,16 @@ export default function EditMovie() {
                 value={id} 
                 onChange={e => setId(e.target.value)}
             /> 
-            
+            <br/> 
             <label htmlFor="name">Movie Name</label>
             <input 
                 id='name' 
                 type="text" 
                 value={name} 
                 onChange={e => setName(e.target.value)}
-            />          
+            />
+            <br/>
+            <br/>         
             <button type='submit' className="Editbtn">Edit movie</button>
         </form>
         </div>
