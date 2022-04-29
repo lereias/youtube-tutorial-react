@@ -11,10 +11,12 @@ function App() {
         <h1> Firebase Firestore React</h1>
       </header>
       <main>
-        {/*<ListMovies />*/}
-        <RealtimeMovies />
-        <AddMovie />
-        <EditMovie />
+        <div className="card">
+          {/*<ListMovies />*/}
+          <RealtimeMovies />
+          <AddMovie />
+          <EditMovie />
+        </div>
       </main>
     </div>
   );
