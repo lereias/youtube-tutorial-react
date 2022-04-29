@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { collection, doc, getDocs, deleteDoc } from 'firebase/firestore';
+import { doc, getDocs, deleteDoc } from 'firebase/firestore';
 import { db } from '../lib/init-firebase'
 import { movieCollectionRef } from '../lib/firestore.collections';
 

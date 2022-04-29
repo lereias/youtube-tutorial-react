@@ -1,7 +1,7 @@
 import './App.css';
 import AddMovie from './components/AddMovie';
 import EditMovie from './components/EditMovie';
-import ListMovies from './components/ListMovies';
+//import ListMovies from './components/ListMovies';
 import RealtimeMovies from './components/RealtimeMovies';
 
 function App() {
