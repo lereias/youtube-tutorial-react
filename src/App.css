@@ -1,3 +1,27 @@
 .App {
     text-align: center;
   }
+
+body {
+    background-color: #FFD700;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 25px;
+    padding-bottom: 50px; 
+}
+
+header {
+    background-color: #a8a516;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

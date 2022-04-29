@@ -30,7 +30,7 @@ export default function RealtimeMovies() {
     return (
     <div>
         <h4>RealtimeMovies</h4>
-        <ul>
+        <ul className='no-bullets'>
             {movies.map(movie => (
                 <li key={movie.id}>
                     {movie.id} : {movie.data.name}
