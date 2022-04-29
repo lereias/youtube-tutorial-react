@@ -15,8 +15,8 @@ ul.no-bullets {
 
 .card {
     background-color: #ffffff;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 25px;
     padding-bottom: 50px;
     box-shadow: 10px 10px #a0a0a0; 
@@ -63,4 +63,5 @@ button {
 
 input {
     font-size: 20px;
+    width: 180px;
 }
