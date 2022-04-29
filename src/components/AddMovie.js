@@ -17,6 +17,7 @@ export default function AddMovie() {
             .catch(error => {
                 console.log(error.message)
             })
+        setName("");
     }
 
     return (
@@ -29,8 +30,10 @@ export default function AddMovie() {
                 type="text" 
                 value={name} 
                 onChange={e => setName(e.target.value)}
-            />          
-            <button type='submit'>Add movie</button>
+            /> 
+            <br/>
+            <br/>          
+            <button type='submit' className="Addbtn">Add movie</button>
         </form>
         </div>
     )

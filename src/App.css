@@ -10,12 +10,13 @@ ul.no-bullets {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 .card {
     background-color: #ffffff;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-top: 25px;
     padding-bottom: 50px;
     box-shadow: 10px 10px #a0a0a0; 
@@ -23,8 +24,43 @@ ul.no-bullets {
 
 label {
     margin-right: 2%;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
 }
 
 .Editbtn {
     background-color: rgb(230, 230, 255);
+    border: none;
+    padding: 5px;
+}
+
+.Editbtn:active {     
+    background-color:rgb(134, 186, 229);    
+}
+
+.Addbtn {
+    background-color: rgb(211, 233, 218);
+    border: none;
+    padding: 5px;
+}
+
+.Addbtn:active {     
+    background-color: rgb(145, 222, 170);
+}
+
+.Deletebtn {
+    background-color: rgb(230, 180, 180);
+    border: none;
+    padding: 5px;
+}
+
+.Deletebtn:active {
+    background-color: rgb(222, 139, 139);
+}
+
+input {
+    font-size: 20px;
 }
